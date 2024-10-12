@@ -1,0 +1,1160 @@
+       @media only screen and (max-width: 374px) and (min-width: 320px) {
+           .logo {
+               display: none;
+           }
+
+           .top-navbar {
+               margin-right: 0px;
+               margin-left: 4px;
+           }
+
+           .top-navbar .tagline h3 {
+               font-size: 17px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 17px;
+           }
+
+           .main_logo {
+               display: block;
+           }
+
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
+           }
+
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 24px;
+               gap: 40px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
+           }
+
+           /* =================================== */
+
+           .banner {
+               margin-left: 18px;
+               margin-right: 2px;
+           }
+
+           .banner-right-side {
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               height: 50vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 26px;
+           }
+
+           .banner-right-side p {
+               font-size: 16px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 18px 10px 18px;
+               border: 2px solid var(--white-color);
+               font-size: 22px;
+           }
+
+           /* .banner-bg {
+               width: 332px;
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 14px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 22px;
+           } */
+
+           /* =================================== */
+           .about-section {
+               margin-right: 12px;
+               margin-left: 19px;
+
+           }
+
+           .about-title h3 {
+               font-size: 26px;
+           }
+
+           .about-content p {
+               font-size: 16px;
+               text-align: left;
+
+           }
+
+           /* =================================== */
+           .market-section {
+               margin-left: 20px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
+
+           .card {
+               width: 19rem;
+           }
+
+           /* =================================== */
+            /* market about details page start */
+            .market-about-details {
+                margin-left: 22px;
+                margin-right: 22px;
+            }
+            /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 10px;
+           }
+
+           .antifoam-defoamers-product-finder-left-side {
+               font-size: 14px;
+           }
+
+           .antifoam-defoamers-product-finder-right-side .search-icon-container {
+               padding: 8px;
+           }
+
+           .antifoam-defoamers-product-finder-right-side .search-icon-container i {
+               font-size: 14px;
+           }
+
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               display: flex;
+               flex-direction: column;
+           }
+
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 21px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 14px;
+               width: 264px;
+           }
+
+           .antifoam-defoamers-details-left-side-content ul {
+               padding-left: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
+               margin-top: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
+           }
+
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 200px;
+               height: 200px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .sustainability-header {
+               margin-left: 15px;
+           }
+
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 15px;
+               margin-left: 0;
+               text-align: center;
+           }
+
+           .sustainability-left-side-content p {
+               font-size: 14px;
+           }
+
+           .sustainability {
+               margin-left: 10px;
+           }
+
+           /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 33px;
+           }
+
+           .service-items-image img {
+               width: 263px;
+               height: 160px;
+           }
+
+           .service-content p {
+               font-size: 14px;
+               width: 268px;
+
+           }
+
+           /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
+           .services-details-segment-heading h3 {
+               font-size: 23px;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 305px;
+               height: 218px;
+           }
+
+           /* =================================== */
+
+       }
+
+       @media only screen and (max-width: 424px) and (min-width: 375px) {
+           .logo {
+               display: none;
+           }
+
+           .top-navbar {
+               margin-right: 0px;
+               margin-left: 8px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
+           }
+
+           .top-navbar .tagline h3 {
+               font-size: 18px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 18px;
+           }
+
+           .main_logo {
+               display: block;
+           }
+
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
+           }
+
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 26px;
+               gap: 80px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
+           /* ============================= */
+
+           .banner {
+               margin-left: 28px;
+               margin-right: 16px;
+           }
+
+           .banner-right-side {
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               height: 90vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 28px;
+           }
+
+           .banner-right-side p {
+               font-size: 18px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 18px 10px 18px;
+               border: 2px solid var(--white-color);
+               font-size: 22px;
+           }
+
+           /* .banner-bg {
+               width: 387px;
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 15px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           } */
+
+           /* ============================= */
+           /* =================================== */
+           .about-section {
+               margin-right: 22px;
+               margin-left: 32px;
+
+           }
+
+           .about-title h3 {
+               font-size: 28px;
+           }
+
+           .about-content p {
+               font-size: 16px;
+               text-align: left;
+
+           }
+
+           /* =================================== */
+           .market-section {
+               margin-left: 33px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
+
+           .card {
+               width: 21rem;
+           }
+ /* market about details page start */
+ .market-about-details {
+     margin-left: 22px;
+     margin-right: 22px;
+ }
+
+ /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 10px;
+           }
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 298px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               display: flex;
+               flex-direction: column;
+           }
+
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 14px;
+           }
+
+           .antifoam-defoamers-details-left-side-content ul {
+               padding-left: 20px;
+           }
+
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
+           }
+
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 250px;
+               height: 250px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 19px;
+               margin-left: 0;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 42px;
+           }
+
+           .service-items-image img {
+               width: 326px;
+               height: 160px;
+           }
+
+           .service-content p {
+               font-size: 14px;
+               width: 325px;
+
+           }
+
+           /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 352px;
+               height: 218px;
+           }
+
+           /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
+           .services-details-segment-heading h3 {
+               font-size: 23px;
+               text-align: center;
+           }
+
+           /* =================================== */
+
+       }
+
+       @media only screen and (max-width: 767px) and (min-width: 425px) {
+
+           .logo {
+               display: none;
+           }
+
+           .top-navbar {
+               margin-right: -16px;
+               margin-left: 5px;
+           }
+
+           .navbar-expand-lg {
+               background: none;
+           }
+
+           .top-navbar .tagline h3 {
+               font-size: 22px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 22px;
+           }
+
+           .main_logo {
+               display: block;
+           }
+
+           .main_logo img {
+               Width: 200px;
+               Height: 67px
+           }
+
+           .main-navbar {
+               display: flex;
+               flex-wrap: inherit;
+               align-items: center;
+               margin-left: 25px;
+               gap: 140px;
+
+           }
+
+           .navbar-nav a {
+               margin-left: 0px !important;
+               margin-right: 0px;
+           }
+
+           /* ============================= */
+           .banner {
+               margin-left: 28px;
+               margin-right: 17px;
+           }
+
+           .banner-right-side {
+               width: 390px;
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               width: 390px;
+               height: 80vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 30px;
+           }
+
+           .banner-right-side p {
+               font-size: 18px;
+           }
+
+           .banner-right-side a {
+               padding: 10px 46px 10px 46px;
+               border: 2px solid var(--white-color);
+               font-size: 28px;
+           }
+
+           /* .banner-bg {
+               width: 437px;
+               height: 60vh;
+           }
+
+           .banner-content {
+               width: 90%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 18px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           } */
+
+           /* ============================= */
+
+           .about-section {
+               margin-right: 22px;
+               margin-left: 28px;
+
+           }
+
+           .about-title h3 {
+               font-size: 30px;
+           }
+
+           .about-content p {
+               font-size: 16px;
+               text-align: left;
+
+           }
+
+           /* =================================== */
+           .market-section {
+               margin-left: 33px;
+               margin-right: 12px;
+           }
+
+           .slick-prev:before,
+           .slick-next:before {
+               display: none;
+           }
+
+           .slider {
+               margin-left: -20px;
+               margin-right: -6px;
+           }
+
+           .card {
+               width: 24rem;
+           }
+ /* market about details page start */
+ .market-about-details {
+     margin-left: 22px;
+     margin-right: 22px;
+ }
+
+ /* market about details page start */
+           /* =================================== */
+           .antifoam-defoamers {
+               margin-right: 10px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 0.9em;
+               width: 368px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               display: flex;
+               flex-direction: column;
+           }
+
+
+           .antifoam-defoamers-details-left-side-content h1 {
+               font-size: 18px;
+           }
+
+           .antifoam-defoamers-details-left-side-content p {
+               font-size: 14px;
+               width: 414px;
+
+           }
+
+           .antifoam-defoamers-details-left-side-content ul {
+               padding-left: 20px;
+           }
+
+           /* ============================= */
+           .comapnyNews-header {
+               margin-left: 28px;
+           }
+
+           .antifoam-defoamers-product-title {
+               margin-top: 20px;
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-product-heading a {
+               font-size: 17px;
+               margin-left: 22px;
+               margin-right: 10px;
+           }
+
+           .antifoam-defoamers-details {
+               margin-left: -18px;
+           }
+
+           .antifoam-defoamers-details-right-side {
+               margin-left: 4px;
+               padding: 20px;
+               width: 126%;
+           }
+
+           .back-btn-section {
+               margin-left: 20px;
+           }
+
+           .antifoam-defoamers-details-right-side-content {
+               flex-direction: column;
+           }
+
+           .contact-information h3 {
+               font-size: 20px;
+               text-align: center;
+           }
+
+           .antifoam-defoamers-details-right-side-image {
+               width: 120px;
+               height: 120px;
+           }
+
+           .contact-information-email {
+               justify-content: center;
+               flex-direction: column;
+           }
+
+           .contact-information-email span {
+               font-size: 16px;
+           }
+
+           .contact-information-email i {
+               font-size: 20px;
+           }
+
+           /* =================================== */
+           .management-team-bg {
+               padding-top: 50px;
+               padding-left: 10px;
+               padding-right: 10px;
+               margin-left: 0;
+               margin-right: 0;
+               margin-top: 10px;
+           }
+
+           .management-team-items {
+               margin-top: 20px;
+           }
+
+           .management-team .management-team-title h3 {
+               font-size: 28px;
+               text-align: center;
+           }
+
+           .management-team .management-team-items .management-team-items-image img {
+               width: 300px;
+               height: 300px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h2 {
+               font-size: 18px;
+               margin-top: 5px;
+           }
+
+           .management-team .management-team-items .management-team-items-content h3 {
+               font-size: 14px;
+           }
+
+           .management-team .row {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+           }
+
+           .management-team .col-lg-3 {
+               flex: 0 0 100%;
+               max-width: 100%;
+               text-align: center;
+           }
+
+           /* =================================== */
+           .sustainability-bg {
+               padding: 10px;
+           }
+
+           .sustainability-header a {
+               font-size: 12px;
+           }
+
+           .sustainability-title {
+               margin-left: 10px;
+               margin-right: 10px;
+               padding: 10px;
+           }
+
+           .sustainability-title h3 {
+               font-size: 23px;
+               margin-left: 0;
+               text-align: center;
+           }
+
+           /* =================================== */
+           /* =================================== */
+           .services {
+               margin-left: 27px;
+           }
+
+           .service-title h3 {
+               font-size: 51px;
+           }
+
+           .service-content p {
+               font-size: 14px;
+               width: 376px;
+
+           }
+
+           .service-items-image img {
+               width: 382px;
+               height: 160px;
+           }
+
+           /* =================================== */
+           .contact {
+               margin-left: 27px;
+           }
+
+           .contact-right-side {
+               flex-direction: column;
+           }
+
+           .contact-right-side-image img {
+               width: 400px;
+               height: 218px;
+           }
+
+           /* =================================== */
+           .services-details-page {
+               margin-left: 25px;
+               margin-right: 25px;
+           }
+
+           .services-details-segment-heading h3 {
+               font-size: 23px;
+               text-align: center;
+           }
+
+           /* =================================== */
+
+       }
+
+       @media only screen and (max-width: 1198px) and (min-width: 768px) {
+           .logo {
+               display: none;
+           }
+
+           .top-navbar .tagline h3 {
+               font-size: 22px;
+           }
+
+           .top-navbar .tagline h4 {
+               font-size: 22px;
+           }
+
+           .main_logo {
+               display: block;
+           }
+
+           .main_logo img {
+               margin-left: 40px;
+               Width: 262px;
+               Height: 101px;
+           }
+
+           /* ============================= */
+           /* ============================= */
+           .banner-right-side {
+               width: 719px;
+               margin-top: 10px;
+           }
+
+           .banner-image img {
+               width: 719px;
+               height: 80vh;
+           }
+
+           .banner-right-side h3 {
+               font-size: 45px;
+           }
+
+           .banner-right-side p {
+               font-size: 25px;
+           }
+
+           .banner-right-side a {
+               padding: 18px 100px 18px 100px;
+               border: 2px solid var(--white-color);
+               font-size: 55px;
+           }
+
+           /* .banner-bg {
+               width: 768px;
+               height: 100vh;
+           }
+
+           .banner-content {
+               width: 78%;
+               padding: 5px;
+               border-radius: 41px;
+           }
+
+           .banner-search-box p {
+               font-size: 18px;
+               padding: 6px;
+           }
+
+           .banner-search-box i {
+               font-size: 32px;
+           } */
+
+           /* ============================= */
+           .card {
+               width: 21rem;
+               margin-left: auto;
+           }
+
+           /* ============================= */
+           .sustainability-title h3 {
+               font-size: 37px;
+           }
+       }
+
+       /* 
+       @media only screen and (max-width: 1024px) {
+           .main_logo img {
+               margin-left: 42px;
+               Width: 278px;
+               Height: 101px;
+           }
+
+           .navbar-nav a {
+               font-size: 18px;
+           }
+
+           .banner-bg {
+               width: 1070px;
+               height: 110vh;
+           }
+       } */
+
+       @media only screen and (max-width: 1199px) and (min-width: 992px) {
+           .main_logo img {
+               margin-left: 42px;
+               Width: 278px;
+               Height: 101px;
+           }
+
+       }
+
+       @media only screen and (max-width: 1399px) and (min-width: 1200px) {}

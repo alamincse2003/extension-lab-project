@@ -1,0 +1,1140 @@
+/*========================
+ common css start  
+==========================*/
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+}
+
+
+:root {
+    --primary-color: #4472d1;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --blue-color: #120958;
+    --light-gray: #e8e6e0;
+    --neutral-color: #d0cbc7;
+    --sky-blue-color: #4ca8bd;
+    --white-smoke: #f5f5f5;
+
+}
+
+/*========================
+ common css end 
+==========================*/
+
+/* Top navbar */
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+
+
+.top-navbar .tagline h4 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--primary-color);
+}
+
+.top-navbar .tagline h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--primary-color);
+}
+
+/* Main navbar */
+.main_logo {
+    display: none;
+}
+
+.navbar-expand-lg {
+    background: var(--white-smoke);
+}
+
+.navbar-nav a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 17px;
+    color: var(--primary-color) !important;
+    font-weight: 400;
+}
+
+.navbar-nav a {
+    margin-left: 84px !important;
+    margin-right: -46px;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-item:focus,
+.navbar-nav .dropdown-item:hover,
+.navbar-nav .dropdown-item.active {
+    background-color: transparent !important;
+    /* Remove background color */
+    color: var(--primary-color);
+    /* Keep the text color the same */
+}
+
+.navbar-nav .dropdown-item:active {
+    background-color: transparent !important;
+    /* Remove active background color */
+}
+
+.dropdown-menu.dropdown-align-left {
+    width: 281px;
+    left: 71px !important;
+}
+
+.dropdown-menu.dropdown-align-right {
+    width: 336px;
+    left: 71px !important;
+}
+
+
+
+/*=====================
+ banner  section start
+=======================*/
+.banner {
+    margin-top: 30px;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 54vh;
+}
+
+.banner-right-side {
+    background-color: var(--blue-color);
+    padding: 40px;
+    text-align: center;
+}
+
+.banner-right-side h3 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.banner-right-side p {
+    font-family: "Frutiger LT W05 45 Light", sans-serif;
+    font-weight: 400;
+    color: var(--white-color);
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.banner-right-side select {
+    border-radius: 0;
+}
+
+.banner-right-side select option {
+    font-family: "Frutiger LT W05 45 Light", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+}
+
+.banner-right-side a {
+    padding: 10px 65px 10px 65px;
+    font-family: "Frutiger LT W05 65 Bold", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+}
+
+.banner-right-side-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-right-side-divider span {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 13px;
+    color: var(--white-color);
+    padding: 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.banner-right-side-divider-line {
+    flex: 1;
+    border-bottom: 1px solid var(--white-color);
+
+}
+
+/*=====================
+ banner  section end
+=======================*/
+
+/*=====================
+ about  section start
+=======================*/
+.about-section {
+    margin-top: 50px;
+    margin-right: 88px;
+    margin-left: 88px;
+
+}
+
+.about-title h3 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--sky-blue-color);
+}
+
+.about-title h3 span {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    text-transform: uppercase;
+}
+
+.about-content p {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    text-align: justify;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--black-color);
+
+
+}
+
+.about-content p span {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    text-transform: uppercase;
+}
+
+.about-content ul li {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-color);
+
+}
+
+.about-content ul li i {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+
+}
+
+/*=====================
+ about  section end
+=======================*/
+
+
+/* right: -30px !important
+/*=====================
+ market  section start
+=======================*/
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: black;
+}
+
+.more-about-this-btn a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    margin-bottom: 20px !important;
+    color: var(--sky-blue-color);
+}
+
+.view-all-btn a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    margin: 0;
+    color: var(--sky-blue-color);
+}
+
+.slider {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+
+.market-section {
+    margin-top: 50px;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.market-title h3 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 500;
+    color: var(--sky-blue-color);
+    font-size: 23px;
+}
+
+.card {
+    width: 17rem;
+}
+
+.card-body h5 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 20px;
+}
+
+.card-body-content p {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 15px;
+}
+
+.card-body-content p span {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    text-transform: uppercase;
+}
+
+.card-body-content p a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 16px;
+}
+
+.view-all-btn a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/*=====================
+ market  section end
+=======================*/
+/*=================================
+ market about details section start
+===================================*/
+.market-about-details {
+    margin-top: 30px;
+    margin-left: 94px;
+    margin-right: 94px;
+
+}
+.market-about-details-image img{
+    width: 100%;
+}
+.market-about-details-content p{
+    margin-top: 10px;
+    font-size: 15px;
+      font-family: "Frutiger LT W05 45 Light",
+      sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    text-align: justify;
+}
+.market-about-details-item-content p {
+    margin-top: 10px;
+    font-size: 15px;
+      font-family: "Frutiger LT W05 45 Light",
+      sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    text-align: justify;
+}
+
+.market-about-details-item-content p span {
+
+    font-weight: 600;
+
+}
+.market-about-details-item-content p span i{
+    font-size: 8px;
+}
+/*=================================
+ market about details section end
+===================================*/
+
+/*=====================
+ antifoam & defoamers page start
+=======================*/
+.antifoam-defoamers {
+    margin-top: 30px;
+    margin-right: 88px;
+    margin-left: 88px;
+}
+
+.antifoam-defoamers-item {
+    background-color: var(--light-gray);
+    padding: 30px 30px 30px 15px;
+    margin: 10px 0px;
+}
+
+.antifoam-defoamers-item-title h3 {
+    font-size: 18px;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+
+}
+
+.antifoam-defoamers-item .antifoam-defoamers-item-content p span {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black-color);
+    text-transform: uppercase;
+}
+
+.antifoam-defoamers-item .antifoam-defoamers-item-content p {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 14px;
+    color: var(--black-color);
+    font-weight: 400;
+
+}
+
+/*=============================
+antifoam & defoamers page end
+=============================== */
+
+/*=====================================
+antifoam & defoamers details page start
+======================================= */
+.antifoam-defoamers-product-finder {
+    background-color: var(--white-color);
+}
+
+.antifoam-defoamers-product-finder-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.antifoam-defoamers-product-finder-left-side a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.antifoam-defoamers-product-finder-left-side i {
+    color: var(--black-color);
+}
+
+.antifoam-defoamers-product-finder-right-side {
+    text-align: right;
+}
+
+.antifoam-defoamers-product-finder-right-side .search-icon-container {
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.antifoam-defoamers-product-finder-right-side .search-icon-container i {
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+.antifoam-defoamers-product-title {
+    margin-top: 20px;
+    background-color: var(--blue-color);
+
+}
+
+.antifoam-defoamers-product-heading a {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+
+.antifoam-defoamers-details {
+    padding-top: 20px;
+    margin-left: -50px;
+    margin-right: 57px;
+}
+
+.antifoam-defoamers-details-left-side {
+    background-color: var(--white-color);
+    padding: 30px;
+}
+
+.antifoam-defoamers-details-left-side-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+}
+
+.antifoam-defoamers-details-left-side-content p span {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+}
+
+.antifoam-defoamers-details-left-side-content p {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.antifoam-defoamers-details-left-side-content ul li {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.antifoam-defoamers-details-left-side-content ul li i {
+    font-size: 8px;
+    color: var(--blue-color);
+}
+
+.antifoam-defoamers-details-right-side {
+    background-color: var(--white-color);
+    padding: 30px;
+    width: 560px;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.antifoam-defoamers-details-right-side-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.antifoam-defoamers-details-right-side-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.antifoam-defoamers-details-right-side-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-information h3 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--blue-color);
+    text-transform: uppercase;
+}
+
+.contact-information-email {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contact-information-email i {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--blue-color);
+}
+
+.contact-information-email span {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--blue-color);
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.contact-information a {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    margin-left: 12px;
+}
+
+/* =========================== */
+
+.download-btn {
+    color: var(--blue-color);
+}
+
+.back-btn-section {
+    margin-top: 20px;
+}
+
+.back-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+}
+
+.back-btn {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--white-color);
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn i {
+    margin-right: 10px;
+}
+
+/* ============================ 
+     Hidden Search Input start
+    ===============================*/
+.search-input-container {
+    margin-top: 10px;
+    background-color: var(--blue-color);
+    padding: 20px;
+    display: none;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* ============================ 
+     Hidden Search Input end
+    ===============================*/
+
+/*=====================================
+antifoam & defoamers details page end
+======================================= */
+
+/*============================ 
+company & news page start
+============================= */
+.comapnyNews-header {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.comapnyNews-header a {
+    color: var(--black-color);
+}
+
+.management-team-bg {
+    background-color: var(--white-color);
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-top: 20px;
+}
+
+.management-team-items {
+    margin-top: 50px;
+}
+
+.management-team .management-team-title h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 46px;
+}
+
+
+.management-team .management-team-items .management-team-items-image img {
+    width: 288px;
+    height: 288px;
+}
+
+.management-team .management-team-items .management-team-items-content h2 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.management-team .management-team-items .management-team-items-content h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+/*============================ 
+company & news page end
+============================= */
+
+/*========================
+sustainability page start 
+==========================*/
+.sustainability {
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+.sustainability-bg {
+    background-color: var(--white-color);
+    padding: 20px;
+}
+
+.sustainability-header {
+    margin-left: 70px;
+}
+
+.sustainability-header a {
+    color: var(--black-color);
+}
+
+.sustainability-title {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+.sustainability-title h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    text-transform: uppercase;
+    color: var(--sky-blue-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    margin-left: 20px;
+}
+
+.sustainability-left-side {
+    margin-top: 40px;
+}
+
+.sustainability-left-side-heading h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.sustainability-left-side-heading h3 span {
+    text-transform: uppercase;
+}
+
+.sustainability-left-side-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    margin-top: 15px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 17px;
+}
+
+.sustainability-left-side-content p span {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.sustainability-right-side-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    margin-top: 85px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 17px;
+}
+
+/*========================
+sustainability page end 
+==========================*/
+
+/*========================
+services page start
+==========================*/
+.services {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.service-header a {
+    font-weight: 400;
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    color: var(--black-color);
+}
+
+.service-title h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    margin-top: 70px;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.service-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 16px;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.service-items {
+    margin-top: 50px;
+}
+
+.service-items-image img {
+    width: 286px;
+    height: 160px;
+}
+
+.service-items-title h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 17px;
+}
+
+/*========================
+services page end
+==========================*/
+
+/*========================
+services details page start
+==========================*/
+.services-details-page {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/*========================
+services details page end
+==========================*/
+
+/*========================
+contact page start
+==========================*/
+.contact {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.contact-header a {
+    color: var(--black-color);
+}
+
+.contact-left-side,
+.contact-right-side {
+    margin-top: 50px;
+}
+
+.contact-left-side-heading h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    color: var(--sky-blue-color);
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.contact-left-side-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 17px;
+    margin: 0;
+}
+
+.contact-right-side {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-right-side-content h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.contact-right-side-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 17px;
+}
+
+.contact-right-side-image img {
+    width: 387px;
+    height: 218px;
+}
+
+/*========================
+contact page end
+==========================*/
+
+/*========================
+service details page start
+==========================*/
+.services-details-segment {
+    margin-top: 100px;
+}
+
+.services-details-segment-heading h3 {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--sky-blue-color);
+    font-size: 24px;
+}
+
+.services-details-btn {
+    color: var(--sky-blue-color);
+}
+
+.services-details-segment-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.services-details-segment-content a {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--sky-blue-color);
+    font-size: 20px;
+
+}
+
+.services-details-segment-content p {
+    font-family: "Frutiger LT W05 65 Bold",
+        sans-serif;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 20px;
+
+}
+
+/*========================
+service details page end
+==========================*/
+
+
+/*========================
+footer page start
+==========================*/
+
+
+.footer {
+    height: 40vh;
+    margin-top: 70px;
+}
+
+
+.footer-title h3 {
+    font-family: "Frutiger LT W05 45 Light",
+        sans-serif;
+    font-size: 17px;
+    text-align: center !important;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-item i {
+    font-size: 30px;
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.social-media-item h5 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 16px;
+    color: var(--black-color);
+
+}
+
+.social-media-item p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+
+/*========================
+footer page end
+==========================*/
