@@ -265,6 +265,9 @@
              </li>
              <li class=" navigation-header"><span>Home Page</span>
              </li>
+             <li class=" nav-item"><a href="{{ route('banner') }}"><i class="bx bx-envelope"></i><span
+                         class="menu-title" data-i18n="Email">Banner</span></a>
+             </li>
              <li class=" nav-item"><a href="{{ route('admin-about') }}"><i class="bx bx-envelope"></i><span
                          class="menu-title" data-i18n="Email">About</span></a>
              </li>
@@ -276,6 +279,18 @@
              </li>
              <li class=" nav-item"><a href="{{ route('application-category') }}"><i class="bx bx-chat"></i><span
                          class="menu-title" data-i18n="Chat">Application Category</span></a>
+             </li>
+             <li class=" nav-item"><a href="{{ route('product-category') }}"><i class="bx bx-chat"></i><span
+                         class="menu-title" data-i18n="Chat">Product Category</span></a>
+             </li>
+             <li class=" nav-item"><a href="{{ route('admin-product') }}"><i class="bx bx-chat"></i><span
+                         class="menu-title" data-i18n="Chat">Product</span></a>
+             </li>
+             <li class=" nav-item"><a href="{{ route('admin-service-details') }}"><i class="bx bx-chat"></i><span
+                         class="menu-title" data-i18n="Chat">Service Details</span></a>
+             </li>
+             <li class=" nav-item"><a href="{{ route('profile') }}"><i class="bx bx-chat"></i><span
+                         class="menu-title" data-i18n="Chat">Profile</span></a>
              </li>
              <li class=" nav-item"><a href="{{ route('admin-contact') }}"><i class="bx bx-check-circle"></i><span
                          class="menu-title" data-i18n="Todo">Contact</span></a>

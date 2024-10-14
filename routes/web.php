@@ -3,8 +3,13 @@
 use App\Http\Controllers\backend\AboutController;
 use App\Http\Controllers\backend\AdminController;
 use App\Http\Controllers\backend\ApplicationCategoryController;
+use App\Http\Controllers\backend\BannerController;
 use App\Http\Controllers\backend\CompanyController;
 use App\Http\Controllers\backend\ContactController;
+use App\Http\Controllers\backend\ProductCategoryController;
+use App\Http\Controllers\backend\ProductController;
+use App\Http\Controllers\backend\ProfileController;
+use App\Http\Controllers\backend\ServiceDetailsController;
 use App\Http\Controllers\backend\SettingController;
 use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\SustainabilityController;
@@ -25,11 +30,29 @@ Route::get( '/market-about-details', [HomeController::class, 'marketAboutDetails
 
 Route::prefix( 'admin' )->group( function () {
     Route::get( 'dashboard', [AdminController::class, 'index'] )->name( 'admin.dashboard' );
+
+    Route::match( ['get', 'post'], 'banner/{id?}', [BannerController::class, 'Banner'] )->name( 'banner' );
+
     Route::match( ['get', 'post'], 'admin-about/{id?}', [AboutController::class, 'adminAbout'] )->name( 'admin-about' );
+
     Route::match( ['get', 'post'], 'company/{id?}', [CompanyController::class, 'company'] )->name( 'company' );
+
     Route::match( ['get', 'post'], 'admin-sustainability/{id?}', [SustainabilityController::class, 'adminSustainability'] )->name( 'admin-sustainability' );
+
     Route::match( ['get', 'post'], 'admin-contact/{id?}', [ContactController::class, 'adminContact'] )->name( 'admin-contact' );
+
     Route::match( ['get', 'post'], 'application-category/{id?}', [ApplicationCategoryController::class, 'applicationCategory'] )->name( 'application-category' );
+
+    Route::match( ['get', 'post'], 'product-category/{id?}', [ProductCategoryController::class, 'productCategory'] )->name( 'product-category' );
+    
+    
+    Route::match( ['get', 'post'], 'admin-product/{id?}', [ProductController::class, 'product'] )->name( 'admin-product' );
+
+    
+    Route::match( ['get', 'post'], 'admin-service-details/{id?}', [ServiceDetailsController::class, 'adminServiceDetails'] )->name( 'admin-service-details' );
+
+    Route::match( ['get', 'post'], 'profile/{id?}', [ProfileController::class, 'Profile'] )->name( 'profile' );
+
     Route::match( ['get', 'post'], 'setting/{id?}', [SettingController::class, 'setting'] )->name( 'setting' );
 
 } );
